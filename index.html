@@ -96,12 +96,12 @@
           <div class="col-md-6">
             <h2 class="fw-bold mb-3">Sobre nosotros</h2>
             <p>The Daily Grind nace del amor por el café y los espacios que inspiran.</p>
-            <p>Proveedores locales, comercio justo y atención cercana.</p>
+            <p>En The Daily Grind celebramos la esencia del buen café. Trabajamos con granos de origen seleccionado, pastelería fresca y un ambiente cálido pensado para que puedas relajarte, estudiar o compartir. Somos una cafetería independiente que prioriza ingredientes locales, preparaciones honestas y una atención cercana que te haga sentir como en casa.</p>
           </div>
 
           <div class="col-md-6">
             <div class="ratio ratio-16x9 shadow rounded">
-              <iframe src="https://www.youtube.com/embed/4qJ_Q0GxZ_k" allowfullscreen></iframe>
+              <img src="assets/img/gallery-2.jpg" class="card-img-top">
             </div>
           </div>
         </div>
@@ -163,7 +163,7 @@
       </div>
     </section>
 
-    <!-- ========== GALLERY (CAROUSEL) ========== -->
+    <!-- ========== Galeriaa (CAROUSEL) ========== -->
     <section id="gallery" class="py-5">
       <div class="container">
         <h2 class="fw-bold text-center mb-3">Galería</h2>
@@ -193,7 +193,7 @@
       </div>
     </section>
 
-    <!-- ========== CONTACT FORM + VALIDATION JS ========== -->
+    <!-- ========== formulario reserva ========== -->
     <section id="contact" class="py-5 bg-dark text-light">
       <div class="container">
         <h2 class="fw-bold mb-3">Reserva o contáctanos</h2>
@@ -238,7 +238,7 @@
     <p class="mb-0">&copy; 2025 The Daily Grind</p>
   </footer>
 
-  <!-- ========== SUCCESS MODAL ========== -->
+  <!-- ========== modal exio ========== -->
   <div class="modal fade" id="successModal" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
@@ -254,31 +254,10 @@
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-  <!-- TU JS -->
-  <script>
-    const form = document.getElementById("contactForm");
-    const alertError = document.getElementById("alertError");
-
-    form.addEventListener("submit", function(e) {
-      e.preventDefault();
-
-      const name = document.getElementById("name").value.trim();
-      const email = document.getElementById("email").value.trim();
-      const date = document.getElementById("date").value.trim();
-      const people = document.getElementById("people").value.trim();
-
-      if (!name || !email || !date || !people) {
-        alertError.classList.remove("d-none");
-        return;
-      }
-
-      alertError.classList.add("d-none");
-      form.reset();
-
-      const successModal = new bootstrap.Modal(document.getElementById("successModal"));
-      successModal.show();
-    });
-  </script>
+  <!-- enlace js -->
+  <script src="./assets/script.js"></script>
+   
+  
 
 </body>
 </html>
