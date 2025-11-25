@@ -13,7 +13,7 @@ La landing page está pensada para un usuario que quiere:
 - Navegar por una **galería de imágenes**.
 - Enviar una **reserva o consulta** mediante un formulario simple.
 
-Todo el diseño se construyó usando **Bootstrap 5** y utilidades de su sistema de grillas, sin CSS personalizado adicional.
+Todo el diseño se construyó usando **Bootstrap 5** y utilidades de su sistema de grillas, con CSS personalizado adicional para animar cards.
 
 ### ✨ Características principales
 
@@ -83,10 +83,15 @@ Git & GitHub para control de versiones y almacenamiento del código
 
 Nombre: 
 Nicole Urquiza
+
 Cristian Escamilla
+
 Alexander Poyanco
+
 Nicole Medina
+
 Victor Weibel
+
 Curso: Desarrollo de Aplicaciones Full Stack JavaScript – Trainee V2.0
 
 ###### Repositorio:
