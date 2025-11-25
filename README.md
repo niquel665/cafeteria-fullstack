@@ -81,11 +81,12 @@ Git & GitHub para control de versiones y almacenamiento del código
 
 ##### 👤 Autor
 
-Nombre: Nicole Urquiza
-        Cristian Escamilla
-        Alexander Poyanco
-        Nicole Medina
-        Victor
+Nombre: 
+Nicole Urquiza
+Cristian Escamilla
+Alexander Poyanco
+Nicole Medina
+Victor Weibel
 Curso: Desarrollo de Aplicaciones Full Stack JavaScript – Trainee V2.0
 
 ###### Repositorio:
